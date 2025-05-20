@@ -171,16 +171,18 @@ const Resume = () => {
                     <li title='CSS-3'><img src={Css} alt='CSS-3' height={40} /></li>
                     <li title='Javascript'><img src={Js} alt='JS' height={40} /></li>
                     <li title='Bootstrap'><img src={Bootstrap} alt='Bootstrap' height={40} /></li>
-                    <li title='React Js'><img src={ReactJs} alt='React Js' height={40} /></li>
+                    
                   </ul>
                   <ul>
+                    <li title='React Js'><img src={ReactJs} alt='React Js' height={40} /></li>
                     <li title='Laravel'><img src={Laravel} alt='Laravel' height={40} /></li>
                     <li title='Node Js'><img src={NodeJs} alt='Node Js' height={40} /></li>
                     <li title='PHP'><img src={Php} alt='PHP' height={40} /></li>
-                    <li title='MySQL'><img src={MySql} alt='MySQL' height={40} /></li>
-                    <li title='Mongo DB'><img src={MongoDb} alt='MongoDb' height={40} /></li>
+                    
                   </ul>
                   <ul>
+                    <li title='MySQL'><img src={MySql} alt='MySQL' height={40} /></li>
+                    <li title='Mongo DB'><img src={MongoDb} alt='MongoDb' height={40} /></li>
                     <li title='Express JS'><img src={ExpressJs} alt='Express JS' height={40} /></li>
                   </ul>
                 </>
