@@ -7,10 +7,6 @@ const Services = () => {
       
       <div class="container pt-3">
 
-        <div className='d-flex justify-content-center text-center mt-5  mb-5'>
-          <h5 style={{ color: '#2dfa9d', width: '75%' }}>"I’m still in the early stages of my journey, but I’m actively improving my skills and expanding my knowledge in all of these areas."</h5>
-        </div>
-
         <div class="row justify-content-md-center">
 
           <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center mb-5">
@@ -62,6 +58,7 @@ const Services = () => {
       </div>
 
     </section>
+
 
     
   )

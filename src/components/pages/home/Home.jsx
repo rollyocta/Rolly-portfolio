@@ -63,9 +63,9 @@ const Home = () => {
                   Download CV <ArrowDownToLine size={16} />
 
                 </a>
-                {/* <button className='btn btn-sm btn-outline-success me-2' title='Github'><Github size={16} /></button>
-                <button className='btn btn-sm btn-outline-success me-2' title='Linkedin'><Linkedin size={16} /></button>
-                <button className='btn btn-sm btn-outline-success' title='Facbook'><Facebook size={16} /></button> */}
+                <a href='https://github.com/rollyocta' target='_blank' className='btn btn-sm btn-outline-success me-2' title='Github'><Github size={16} /></a>
+                {/* <button className='btn btn-sm btn-outline-success me-2' title='Linkedin'><Linkedin size={16} /></button> */}
+                <a href='https://www.facebook.com/rolly.octa.98/' target='_blank' className='btn btn-sm btn-outline-success' title='Facbook'><Facebook size={16} /></a>
               </div>
 
             </div>

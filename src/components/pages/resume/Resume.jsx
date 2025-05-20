@@ -88,10 +88,21 @@ const Resume = () => {
           <div class="col-sm-12 col-md-12 col-lg-6  mb-5 resume-info">  
             {/* start code ng experience content */}
             {activeContent === "A" && 
+
               <div className="text-white ">
                 <div>
                   <h3>My Work Experience</h3>
                 </div>
+
+                <div className='exp-card mb-2'>
+                  <span>Oct 2023 up to Feb 2024 </span>
+                  <p>5 Months</p>
+                  <h5>IT Intern</h5>
+                  <ul>
+                    <li>Macro Wiring Technologies Co. Inc. (Plant 2)</li>
+                  </ul>
+                </div>
+
                 <div className='exp-card'>
                   <span>Oct 2024 up to March 2025 </span>
                   <p>6 Months</p>
@@ -101,6 +112,7 @@ const Resume = () => {
                   </ul>
                 </div>
               </div>
+
             }
             {/* end code ng experience content */}
 
@@ -111,6 +123,16 @@ const Resume = () => {
                 <h3>My Education</h3>
                 <p>Despite the pandemic, I graduated, building resilience, adaptability, and a passion for learning</p>
               </div>
+
+              <div className='edu-card mb-2'>
+                <span>2016 - 2018 </span>
+                <p>2 years</p>
+                <h5>Computer Programming</h5>
+                <ul>
+                  <li>Tanza National Trade School-Main(SHS)</li>
+                </ul>
+              </div>
+
               <div className='edu-card'>
                 <span>2019 - 2024 </span>
                 <p>4 years</p>
